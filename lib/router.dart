@@ -10,6 +10,12 @@ class MyApp extends StatelessWidget {
       title: 'Hawk app0',
       theme: ThemeData(
         primaryColor: Color(0xff191970),
+        appBarTheme: AppBarTheme(
+          color: Colors.white,
+          iconTheme: IconThemeData(
+            color: Colors.black,
+          ),
+        ),
       ),
       home: HomeUI(),
     );
