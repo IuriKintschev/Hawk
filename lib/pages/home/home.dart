@@ -8,8 +8,13 @@ class HomeUI extends StatefulWidget {
 class _HomeUIState extends State<HomeUI> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Theme.of(context).primaryColor,
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+        // leading: Image(),
+      ),
     );
   }
 }
